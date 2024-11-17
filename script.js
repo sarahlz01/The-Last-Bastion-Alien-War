@@ -17,6 +17,6 @@ function video() {
 function noVideo(){
     document.getElementById("myVideo").style.display = "none";
     document.getElementById("buttons").style.display = "block";
-    document.body.style.backgroundImage = "url('images/intro.png')";
+    document.body.style.backgroundImage = "url('intro.png')";
     document.getElementById("start").style.display = "block";
 }
