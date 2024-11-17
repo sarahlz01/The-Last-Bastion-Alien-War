@@ -19,5 +19,4 @@ function noVideo(){
     document.body.style.backgroundImage = "url('End1.png')";
     document.getElementById("restart").style.display = "block";
     document.getElementById("yes").style.display = "block";
-    document.getElementById("no").style.display = "block";
 }
