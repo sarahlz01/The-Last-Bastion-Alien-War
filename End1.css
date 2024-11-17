@@ -17,7 +17,10 @@ button:hover {
   transition: 0.5s;
 }
 
-button {
+#yes {
+  display: none;
+  background-color: green;
+  color: white;
   font-family: 'Space Grotesk', sans-serif;
   border: 1px;
   border-radius: 15px;
@@ -27,12 +30,6 @@ button {
   font-size: 20px;
   cursor: pointer;
   z-index: 10;
-}
-
-#yes {
-  display: none;
-  background-color: green;
-  color: white;
 }
 
 .box {
