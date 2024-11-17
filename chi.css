@@ -97,7 +97,7 @@ body {
 
 #continue {
   z-index: 9999;
-  position: fixed;
+  position: relative;
   font-family: 'Space Grotesk', sans-serif;
   border: 1px;
   border-radius: 15px;
