@@ -18,5 +18,4 @@ function noVideo(){
   document.getElementById("myVideo").style.display = "none";
   document.body.style.backgroundImage = "url('you.png')";
   document.getElementById("king").style.display = "block";
-  document.getElementById("yes").style.display = "block";
 }
