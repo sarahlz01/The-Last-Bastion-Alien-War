@@ -36,11 +36,6 @@ button {
   color: white;
 }
 
-#no {
-  display: none;
-  background-color: red;
-}
-
 .box {
   display: none;
   bottom: 0;
