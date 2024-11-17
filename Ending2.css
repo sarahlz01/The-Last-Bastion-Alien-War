@@ -1,0 +1,12 @@
+#myVideo {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
