@@ -25,7 +25,7 @@ body {
   display: inline-block;
   font-size: 30px;
   cursor: pointer;
-  z-index: 10;
+  z-index: 1000;
 }
 
 .box {
