@@ -22,7 +22,6 @@ body {
   color: black;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 30px;
   cursor: pointer;
   z-index: 1000;
