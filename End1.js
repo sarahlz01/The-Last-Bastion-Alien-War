@@ -1,4 +1,4 @@
-document.getElementById("yes").style.display = "none";
+
 function video() {
   var timeLeft = 0;
   var elem = document.getElementById('timer');
@@ -19,5 +19,4 @@ function noVideo(){
   document.getElementById("myVideo").style.display = "none";
   document.body.style.backgroundImage = "url('End1.png')";
   document.getElementById("restart").style.display = "block";
-  document.getElementById("yes").style.display = "block";
 }
