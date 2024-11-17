@@ -1,3 +1,4 @@
+document.getElementById("yes").style.display = "none";
 function video() {
   var timeLeft = 0;
   var elem = document.getElementById('timer');
