@@ -9,6 +9,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-position: center, absolute;
+  background-repeat: no-repeat;
 }
 
 button:hover {
