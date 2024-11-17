@@ -1,3 +1,5 @@
+document.getElementById("myVideo").play();
+
 function video() {
   var timeLeft = 0;
   var elem = document.getElementById('timer');
