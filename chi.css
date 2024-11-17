@@ -110,3 +110,9 @@ body {
   margin-left: 30px;
   cursor: pointer;
 }
+
+.continue_butt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
