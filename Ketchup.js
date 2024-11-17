@@ -2,7 +2,7 @@ function time() {
     var chi = document.getElementById('chi');
     document.getElementById('kill_box').style.display = "none";
     chi.style.zIndex = 30;
-    var timeLeft = 5;
+    var timeLeft = 6;
     var timerId = setInterval(countdown, 1000);
     document.getElementById('sword').style.display = "block";
     document.getElementById('battle').style.display = "none";
