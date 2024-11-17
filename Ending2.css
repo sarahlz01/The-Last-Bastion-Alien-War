@@ -14,7 +14,8 @@ body {
   background-repeat: no-repeat;
 }
 
-button {
+#yes {
+  display: none;
   font-family: 'Space Grotesk', sans-serif;
   border: 1px;
   border-radius: 15px;
@@ -25,10 +26,6 @@ button {
   font-size: 20px;
   cursor: pointer;
   z-index: 10;
-}
-
-#yes {
-  display: none;
 }
 
 .box {
