@@ -1,0 +1,44 @@
+#myVideo {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: black;
+  background-size: cover;
+  background-position: center, absolute;
+  background-repeat: no-repeat;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center; 
+}
+
+.buttons {
+  display: none;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  transform: scale(1.1);
+  z-index: 102;
+  transition: 0.5s;
+}
+
+#start {
+  cursor: pointer;
+  display: none;
+  font-size: 20px;
+  border-radius: 10px;
+  z-index: 10;
+}

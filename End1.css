@@ -1,0 +1,52 @@
+#myVideo {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  transform: scale(1.1);
+  z-index: 102;
+  transition: 0.5s;
+}
+
+button {
+  font-family: 'Space Grotesk', sans-serif;
+  border: 1px;
+  border-radius: 15px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#yes {
+  display: none;
+  background-color: green;
+  color: white;
+}
+
+#no {
+  display: none;
+  background-color: red;
+}
+
+.box {
+  display: none;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 70%;
+  position: fixed;
+  z-index: 10;
+}   
