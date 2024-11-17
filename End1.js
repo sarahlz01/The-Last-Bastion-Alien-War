@@ -1,5 +1,5 @@
 function video() {
-  var timeLeft = 1;
+  var timeLeft = 0;
   var elem = document.getElementById('timer');
   var timerId = setInterval(countdown, 1000);
   function countdown() {
@@ -17,6 +17,6 @@ function video() {
 function noVideo(){
   document.getElementById("myVideo").style.display = "none";
   document.body.style.backgroundImage = "url('End1.png')";
-  document.getElementById("end").style.display = "block";
+  document.getElementById("restart").style.display = "block";
   document.getElementById("yes").style.display = "block";
 }
