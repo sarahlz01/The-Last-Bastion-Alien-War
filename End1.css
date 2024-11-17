@@ -14,25 +14,18 @@ body {
   background-repeat: no-repeat;
 }
 
-button:hover {
-  transform: scale(1.1);
-  z-index: 102;
-  transition: 0.5s;
-}
-
 #yes {
   display: none;
-  background-color: green;
-  color: white;
   font-family: 'Space Grotesk', sans-serif;
   border: 1px;
   border-radius: 15px;
   color: black;
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  display: inline-block;
+  font-size: 30px;
   cursor: pointer;
-  z-index: 1000;
+  z-index: 10;
 }
 
 .box {
@@ -43,4 +36,4 @@ button:hover {
   width: 70%;
   position: fixed;
   z-index: 10;
-}   
+}
