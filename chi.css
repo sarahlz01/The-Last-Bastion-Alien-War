@@ -111,7 +111,7 @@ body {
   cursor: pointer;
 }
 
-.continue_butt {
+#continue {
   display: flex;
   justify-content: center;
   align-items: center;     
