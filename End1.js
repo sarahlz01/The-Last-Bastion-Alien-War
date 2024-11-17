@@ -15,8 +15,8 @@ function video() {
 }
 
 function noVideo(){
-    document.getElementById("myVideo").style.display = "none";
-    document.body.style.backgroundImage = "url('End1.png')";
-    document.getElementById("restart").style.display = "block";
-    document.getElementById("yes").style.display = "block";
+  document.getElementById("myVideo").style.display = "none";
+  document.body.style.backgroundImage = "url('End1.png')";
+  document.getElementById("end").style.display = "block";
+  document.getElementById("yes").style.display = "block";
 }
