@@ -14,19 +14,6 @@ body {
   background-repeat: no-repeat;
 }
 
-#yes {
-  display: none;
-  font-family: 'Space Grotesk', sans-serif;
-  border: 1px;
-  border-radius: 15px;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  font-size: 30px;
-  cursor: pointer;
-  z-index: 1000;
-}
-
 .box {
   display: none;
   bottom: 0;
